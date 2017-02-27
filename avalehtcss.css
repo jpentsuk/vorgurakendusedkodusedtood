@@ -1,0 +1,71 @@
+body
+{
+    background-color: darkorange;
+}
+h1
+{
+    font-family: Calibri;
+    color: red;
+    text-align: center;
+}
+h2
+{
+    color: darkblue;
+    background-color: yellow;
+    border-style: solid;
+    padding-left: 100px;
+}
+h3
+{
+    color: crimson;
+    background-color: black;
+}
+h3:hover
+{
+    background-color: green;
+
+}
+h4
+{
+    font-family: "Blackadder ITC";
+    font-size: 200%
+}
+ul,ol
+{
+    list-style: none;
+}
+li
+{
+    font-family: "Britannic Bold";
+    font-style: italic;
+    font-size: larger;
+}
+.definitsioon
+{
+    font-family: Arial;
+    font-style: oblique;
+    border-color: black;
+    border-style: dashed;
+}
+.pilt
+{
+    width: 200px;
+    height: 200px;
+}
+.pilt:hover
+{
+    width:250px;
+    height:250px;
+}
+#ulatus
+{
+    background-color: aqua;
+    color: fuchsia;
+    border-style: groove;
+    border-color: black;
+}
+#w3
+{
+    border-style: ridge;
+}
+
