@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rõngaste loomine</title>
+    <link type="text/css"  rel="stylesheet" href="duck.css" />
+</head>
+<body>
+<img src="duck.png" alt="park">
+
+<div id="valine">
+    <div class="sisemine"></div>
+    <div class="sisemine"></div>
+    <div class="sisemine"></div>
+    <div class="sisemine"></div>
+    <div class="sisemine"></div>
+    <div class="sisemine"></div>
+</div>
+
+<script>
+    window.onload = function() {
+// lehe laadimine lõpetatud. Siia funktsiooni sisse kirjutan elementide mõjutamise käsud
+        var liigu=document.getElementById("valine");
+        liigu.onclick=function () {
+            liigu.style.top = (Math.random()*200) + 'px';
+            liigu.style.left = (Math.random()*200) + 'px';
+
+        }
+    }
+</script>
+</body>
+</html>
